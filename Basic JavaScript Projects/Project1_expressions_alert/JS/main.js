@@ -9,4 +9,4 @@ var Sent2="and this is the end of the string. "
 document.write(Sent1 + Sent2);
 
 //Expression
-document.write( 3 * 7 + 5);
+document.write(3 * 7 + 5);
