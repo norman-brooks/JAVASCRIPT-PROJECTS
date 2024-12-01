@@ -10,3 +10,8 @@ document.write(Sent1 + Sent2);
 
 //Expression
 document.write(3 * 7 + 5);
+
+//Event Challenge step 66
+    function displayDate() {
+        document.getElementById('demo').innerHTML = Date();
+    }
