@@ -13,5 +13,9 @@ function myFunction(){
     var sentence="I have been a student of The Tech Academy";
     sentence += " since August of 2024";
     document.getElementById("Concatenate").innerHTML = sentence;
+    //Below is for step 76
+    document.getElementById("Concatenate").style.color = "blue";
+    //Below is for step 76
+    document.getElementById("Concatenate").style.fontSize = "x-large";
 }
 
