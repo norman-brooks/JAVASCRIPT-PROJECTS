@@ -1,0 +1,20 @@
+input {
+    width: 70%;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+label{
+    font-size: large;
+    color: gray;
+}
+
+input[type=text]:hover {
+    box-shadow: 0 0 5px rgb(192, 15, 15) inset;
+}
+
+button {
+    border-radius: 5px;
+}

@@ -31,3 +31,16 @@ function Drummer_Function() {
     }
     document.getElementById("Output").innerHTML = Drummer_Output;
 }
+//Document.getElementsByClassName Assignment
+function Hello_World_Function(){
+    var A = document.getElementsByClassName("Click");
+    A[0].innerHTML = "The text has changed!";
+}
+
+//Graphic for Canvas Element Assignment
+const c = document.getElementById("Canv");
+const ctx = c.getContext("2d");
+ctx.fillRect(20, 20, 150, 100);
+
+
+
