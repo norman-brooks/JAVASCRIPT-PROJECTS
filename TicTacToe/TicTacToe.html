@@ -2,16 +2,22 @@
 <html lang="en">
 
 <head>
-    <title>Tic Tac Toe</title>
+    <title>Ultimate Tic Tac Toe!</title>
     <meta charset="UTF-8">
     <meta name="'viewport" content="width=device-width" , initial-scale="1.0">
+    <header>
+        <h1>Ultimate Tic Tac Toe</h1>
+    </header>
+    <link rel="stylesheet" href="css/game.css">
+    <script src="js/tictactoe.js"></script>
 </head>
 
 <body id="body">
+    
     <!--This container is needed to overlay our canvas over our table.-->
     <div class="center-container">
         <!--Note: Canvas width and height must be within the element.-->
-        <canvas id="wind-lines" width="608" height="608"></canvas>
+        <canvas id="win-lines" width="608" height="608"></canvas>
         <table>
             <tr>
                 <td id="0" onclick="placeXOrO('0')"></td>
