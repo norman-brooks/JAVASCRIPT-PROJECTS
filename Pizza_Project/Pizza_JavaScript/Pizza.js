@@ -11,6 +11,7 @@ function getReceipt() {
             text1 = text1+selectedSize+"<br>";
         }
     }
+    //Below are pizza sizez and prices(sizeTotal)
     if (selectedSize === "Personal Pizza") {
         sizeTotal = 6;
     } else if (selectedSize === "Small Pizza") {
@@ -29,7 +30,7 @@ function getReceipt() {
     //these variables will get passed on to each function
     getTopping(runningTotal,text1);
 };
-
+//Below is for toppings meat & vegetable
 function getTopping(runningTotal, text1) {
     var toppingTotal = 0;
     var selectedTopping = [];
