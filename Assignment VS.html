@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Led Zeppelin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 50px;
+            animation: colorChange 2s infinite;
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: red;
+            }
+
+            50% {
+                color: yellow;
+            }
+
+            100% {
+                color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Whole Lotta Love</h1>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HQmmM_qwG4k"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <script>// JavaScript to animate the title
+        const title = document.getElementById('title');
+        let colors = ['red', 'yellow'];
+        let currentColor = 0;
+
+        setInterval(() => {
+            title.style.color = colors[currentColor];
+            currentColor = (currentColor + 1) % colors.length;
+        }, 1000);</script>
+</body>
+</html>
