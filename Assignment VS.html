@@ -8,41 +8,40 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f0f0f0;
+            background-color: #fff;
         }
 
         h1 {
             font-size: 3em;
             margin-top: 50px;
-            animation: colorChange 2s infinite;
+            animation: colorChange 3s infinite;
         }
 
         @keyframes colorChange {
             0% {
-                color: red;
+                color: blue;
             }
 
             50% {
-                color: yellow;
+                color: gray;
             }
 
             100% {
-                color: red;
+                color: blue;
             }
         }
     </style>
 </head>
 <body>
-    <h1 id="title">Whole Lotta Love</h1>
+    <h1 id="title">Whole Lotta Violin</h1>
     <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HQmmM_qwG4k"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/22PORnPB-Yw?si=5dWpC3fg2ZbJhGHR" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <script>// JavaScript to animate the title
         const title = document.getElementById('title');
-        let colors = ['red', 'yellow'];
+        let colors = ['blue', 'gray'];
         let currentColor = 0;
 
         setInterval(() => {
